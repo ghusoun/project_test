@@ -25,7 +25,7 @@ function Meals() {
     const [type, setType] = useState("")
     const [price, setPrice] = useState(0)
     const [image, setImage] = useState("")
-    
+
     const [meals, setMeals] = useState([])
     useEffect(
         () => {
@@ -77,7 +77,7 @@ function Meals() {
     const validateEdit = () =>
         id.length > 0 &&
         type.length > 0 &&
-        image.length > 0 &&
+        image.length > 0 &&dsnk
         price >= 0 &&
         undefined !== db.Meals.findOne(id)
 
