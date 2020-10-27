@@ -18,6 +18,10 @@ function Dish({ dish, edit, remove, id, name, calories, quantity, availableTo, m
         getData()
     }, [mealId])
 
+
+
+
+    
     return (
         <TableRow key={id}>
             <TableCell>{id}</TableCell>
