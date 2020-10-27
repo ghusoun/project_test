@@ -147,6 +147,9 @@ function Meals() {
                     )
                 }
             </GridList>
+
+
+            
             <Typography>{`Total Price: ${total}`}</Typography>
             {
                 selected
