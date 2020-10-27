@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Hi({ name, age }) {
 
   const hi = (who) => {
-    console.log(`hi to ${who}`)
+    console.log(`Hello to ${who}`)
   }
 
   const [x, setX] = useState(1)
